@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minesweeper</title>
+  <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+  <link rel="stylesheet" href="minesweeper.css">
+</head>
+<body>
+  <div class="frame">
+    <div class="panel">
+      <p>
+        <a href="#" class="mine-down"><</a>
+        <span id="bomb-count"></span>
+        <a href="#" class="mine-up">></a>
+      </p>
+      <p><a class="face">&#128512;</a></p>
+      <p>
+        <a href="#" class="size-down"><</a>
+        Size
+        <a href="#" class="size-up">></a>
+      </p>
+
+    </div>
+    <table>
+      <tbody id="minesweeper">
+      </tbody>
+    </table>
+  </div>
+  <!-- Including your code -->
+  <script type="module" src="./lib/minesweeper.js"></script>
+</body>
+</html>
